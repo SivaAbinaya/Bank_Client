@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f8bcc334.css",
+    "main.js": "/static/js/main.374731bb.js",
+    "static/js/453.164b5822.chunk.js": "/static/js/453.164b5822.chunk.js",
+    "static/media/banking.jpg": "/static/media/banking.21765565abc4c9bb1a74.jpg",
+    "static/media/atms.jpg": "/static/media/atms.b11d5358ab9c3eb3976e.jpg",
+    "static/media/online_banking.jpg": "/static/media/online_banking.814adcd16dce4faddd2f.jpg",
+    "static/media/low_interest.jpg": "/static/media/low_interest.91362c9c215b5f8b6ae6.jpg",
+    "static/media/rewards.jpg": "/static/media/rewards.dc3f9e3858c2bf7f1efc.jpg",
+    "static/media/customer_support.jpg": "/static/media/customer_support.e9c37ced32f9f523aa83.jpg",
+    "index.html": "/index.html",
+    "main.f8bcc334.css.map": "/static/css/main.f8bcc334.css.map",
+    "main.374731bb.js.map": "/static/js/main.374731bb.js.map",
+    "453.164b5822.chunk.js.map": "/static/js/453.164b5822.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8bcc334.css",
+    "static/js/main.374731bb.js"
+  ]
+}

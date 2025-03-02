@@ -1,0 +1,94 @@
+.alldata-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+    background-image: url('../images/background.jpg'); /* Update the path to your background image */
+ 
+    /* background-color: #f4f4f4; */
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .alldata-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgb(176, 227, 20);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+  
+  .table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th, .table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .table td {
+    color: #333;
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .delete-button, .edit-button, .save-button {
+    background-color: #e74c3c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+  }
+  
+
+  .delete-button:hover, .edit-button:hover, .save-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .edit-button {
+    background-color: #3498db;
+  }
+  
+  .edit-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .save-button {
+    background-color: #2ecc71;
+  }
+  
+  .save-button:hover {
+    background-color: #27ae60;
+  }

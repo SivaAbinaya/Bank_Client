@@ -1,0 +1,78 @@
+body {
+  /* background-image: url('../images/background.jpg'); Update the path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin:-30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../images/background.jpg'); /* Update the path to your background image */
+ 
+  /* background-color: rgba(255, 255, 255, 0.8); Add a semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.register-title {
+  font-size: 2rem;
+  color: rgb(176, 227, 20);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.register-form label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.register-form input {
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.register-form .btn {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-form .btn:hover {
+  background-color: #0056b3;
+}
+
+.register-message {
+  font-size: 1rem;
+  color: green;
+  margin-top: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,234 @@
+/* App.css */
+
+/* Body styling */
+.App{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: #ddd2d2;
+  margin: 0;
+  margin-top: 330px;
+
+  padding: 0;
+}
+  body, html, #root {
+    margin-left:10px ;
+  padding: 90;
+  margin-top: 40px;
+  font-family:'Times New Roman', Times, serif;
+  background-color: rgb(249, 250, 251);
+  font-weight: bold;
+  overflow-x: hidden;
+  /* right: 100; */
+}
+
+/* Navbar Styling */
+#header {
+  background-color: #eee4e4;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(107, 176, 73, 0.1);
+  padding-right: 20px; 
+}
+
+#head {
+  color: rgb(19, 34, 207);
+  font-size: 1.3rem;
+  margin-top: 330px;
+
+  font-weight: bold;
+  margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* 
+
+/* Background Image */
+.bg-image {
+  background-repeat: no-repeat;
+  color: transparent; /* Makes text color transparent */
+}
+
+/* Text Styling with Background Image */
+.text-background {
+  font-size: 9rem; /* Large font size */
+  font-weight: bold;
+  text-align: center;
+  color: transparent; /* Ensures that the text is transparent so the background image shows through */
+  background-clip: text;
+  -webkit-background-clip: text; /* Safari support */
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnnmqL8xa7xTpJB8ZC5dkqXSYi8SKMG7Iz_Ce8OcczhYJmOyw0nKdb1wpTFov6DSI--sM&usqp=CAU'); /* Your image URL here */
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 52%;
+  margin-top: -35%;
+}
+
+#bank{
+  border: 3px groove #c7d413;
+  margin: 80%;
+  margin-top: 330px;
+
+  border-radius: 50%;
+  box-shadow:5px 5px 5px 5px rgb(206, 43, 10);
+}
+
+
+/* Logo Styling */
+.img1 {
+  height: 40px;
+  width: auto;
+  margin-left: 10px;
+}
+
+/* Navbar container for alignment */
+.nav {
+  flex-grow: 1;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 23%;
+}
+
+/* Styling for Navbar Links */
+#nav-bar {
+  color: white;
+  margin-right: 20px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  font-size: 16px;
+ 
+}
+
+#nav-bar:hover {
+  color: green;
+  text-decoration: none;
+  border-bottom: 2px solid orange;
+  border-radius: 20%;
+}
+
+
+
+/* Add space below the navbar */
+.br-navbar-spacing {
+  margin-top: 70px; /* Adjust based on navbar height */
+}
+
+.welcome-text {
+ 
+  margin-top: 20px;
+  color: rgb(244, 9, 193);
+  font-size: 2rem;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* Carousel Styling */
+/* Carousel Container Styling */
+.carousel-container {
+  margin-top: -10px; /* Add some spacing on top */
+
+  overflow: hidden; /* To avoid images getting cut off */
+}
+
+/* Styling for Carousel Images */
+.carousel-image {
+  overflow: hidden;
+  width: 100%; /* Make the images responsive */
+  height: 80vh; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure images cover the entire space */
+  border-radius: 10px; /* Add rounded corners to images */
+}
+
+/* Carousel Caption Styling */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: #fff;
+  text-align: center; /* Center text */
+  border-radius: 25px; /* Rounded corners */
+  padding: 2px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Hover effect for carousel captions */
+.carousel-caption:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7); /* Slightly darker background on hover */
+}
+
+/* Font Style for Headings */
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+  color: orangered;
+}
+
+/* Font Style for Paragraphs */
+.carousel-caption p {
+  font-size: 1.5rem;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  color: green;
+
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 1200px) {
+  .carousel-caption h5 {
+    font-size: 2rem; /* Slightly smaller font size */
+  }
+
+  .carousel-caption p {
+    font-size: 1rem; /* Smaller paragraph font */
+  }
+}
+
+@media (max-width: 992px) {
+  .carousel-caption h5 {
+    font-size: 1.8rem; /* Further decrease size for tablets */
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem; /* Smaller paragraph for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    padding: 0 10px; /* Add some padding for small devices */
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.5rem; /* Further decrease heading size */
+  }
+
+  .carousel-caption p {
+    font-size: 0.8rem; /* Further decrease paragraph size */
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-caption h5 {
+    font-size: 1.2rem; /* Smaller font size for very small screens */
+  }
+
+  .carousel-caption p {
+    font-size: 0.7rem; /* Smallest font size for very small screens */
+  }
+
+  .carousel-image {
+    object-fit: cover; /* Ensure images still cover area properly */
+  }
+}

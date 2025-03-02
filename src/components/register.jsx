@@ -23,7 +23,7 @@ export default function Register() {
         };
 
         try {
-            await axios.post('http://localhost:5000/Create', newUser);
+            await axios.post('https://bank-server-ly4z.onrender.com/Create', newUser);
             setUsers([...users, newUser]);
             setMessage("Registration successful!");
         } catch (error) {

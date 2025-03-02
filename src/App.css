@@ -7,7 +7,7 @@
   background-color: #ddd2d2;
   margin: 0;
   margin-top: 330px;
-
+  font-size: 1rem;
   padding: 0;
 }
   body, html, #root {
@@ -16,10 +16,21 @@
   margin-top: 40px;
   font-family:'Times New Roman', Times, serif;
   background-color: rgb(249, 250, 251);
-  font-weight: bold;
+  font-size: 1.1rem;
+  /* font-weight: bold; */
   overflow-x: hidden;
   /* right: 100; */
 }
+
+.corner-brand {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  /* font-size: 10rem; Adjust font size as needed */
+  font-weight: bold;
+  color: rgb(19, 34, 207); /* Adjust color as needed */
+}
+
 
 /* Navbar Styling */
 #header {
@@ -32,14 +43,19 @@
   z-index: 10;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 4px 6px rgba(107, 176, 73, 0.1);
-  padding-right: 20px; 
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(72, 201, 7, 0.1);
+  padding-left: 33%;
+  font-size: 1rem; 
+ /*  letter-spacing: 3px; Add space between text */
+  /* text-transform: uppercase; Make text uppercase */
+  /* color: #10bcde; Change text color */
 }
-
 #head {
   color: rgb(19, 34, 207);
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin-top: 330px;
 
   font-weight: bold;
@@ -69,7 +85,7 @@
 }
 
 #bank{
-  border: 3px groove #c7d413;
+  border: 3px groove #06c9c6;
   margin: 80%;
   margin-top: 330px;
 

@@ -3,10 +3,10 @@ import Carousel from 'react-bootstrap/Carousel';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css'; 
-import CustomerSupport from '../images/customer_support.jpg';
+import CustomerSupport from '../images/customersupport.jpg';
 import LowInterest from '../images/low_interest.jpg';
 import OnlineBanking from '../images/onlinebanking.jpg';
-import ATMs from '../images/atms.jpg';
+import ATMs from '../images/atm.jpg';
 import Rewards from '../images/rewards.jpg';
 
 function Home() {

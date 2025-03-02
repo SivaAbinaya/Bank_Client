@@ -8,7 +8,7 @@ export default function AllData() {
   const { users, setUsers } = useContext(UserContext);
   const [data, setData] = useState([]);
   const [editId, setEditId] = useState(null);
-  const [formData, setFormData] = useState({ name: "", email: "", password: "", amount: "" });
+  const [formData, setFormData] = useState({ name: "", email: "", password: "", amount: "", accounttype: "", accountnum: "", pin: "" });
 
   useEffect(() => {
     async function fetchUsers() {
@@ -33,7 +33,7 @@ export default function AllData() {
 
   function handleEdit(item) {
     setEditId(item._id);
-    setFormData({ name: item.name, email: item.email, password: item.password, amount: item.amount });
+    setFormData({ name: item.name, email: item.email, password: item.password, amount: item.amount, accounttype: item.accounttype, accountnum: item.accountnum, pin: item.pin });  
   }
 
   async function handleUpdate() {
@@ -57,6 +57,9 @@ export default function AllData() {
             <th scope="col">Email</th>
             <th scope="col">Password</th>
             <th scope="col">Balance</th>
+            <th scope="col">Account Type</th>
+            <th scope="col">Account Number</th> 
+            <th scope="col">ATM Pin</th>
             <th scope="col">Actions</th>
           </tr>
         </thead>
@@ -67,6 +70,10 @@ export default function AllData() {
               <td>{item.email}</td>
               <td>{item.password}</td>
               <td>{item.amount}</td>
+              <td>{item.accounttype}</td>
+              <td>{item.accountnum}</td>
+          
+              <td>{item.pin}</td>
               <td>
                 <Button variant="success" onClick={() => handleEdit(item)}>Edit</Button>
                 <Button variant="danger" onClick={() => handleDelete(item._id)}>Delete</Button>
@@ -103,6 +110,25 @@ export default function AllData() {
             onChange={(e) => setFormData({ ...formData, amount: e.target.value })}
             placeholder="Balance"
           />
+          <input
+            type="text"
+            value={formData.accounttype}
+            onChange={(e) => setFormData({ ...formData, accounttype: e.target.value })}
+            placeholder="Account Type"
+          />
+          <input
+            type="number"
+            value={formData.accountnum}
+            onChange={(e) => setFormData({ ...formData, accountnum: e.target.value })}
+            placeholder="Account Number"
+          />  
+          <input
+            type="password"
+            value={formData.pin}
+            onChange={(e) => setFormData({ ...formData, pin: e.target.value })}
+            placeholder="ATM Pin"
+          />
+          <Button variant="secondary" onClick={() => setEditId(null)}>Cancel</Button>
           <Button variant="primary" onClick={handleUpdate}>Update</Button>
         </div>
       )}

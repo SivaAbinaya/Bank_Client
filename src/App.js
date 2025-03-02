@@ -17,7 +17,7 @@ function App() {
     <div className="app-container">
      <Navbar id="header" bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Abi Bank</Navbar.Brand>
+        <Navbar.Brand href="#home" className="corner-brand">Abi Bank</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#register">Register</Nav.Link>

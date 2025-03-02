@@ -1,10 +1,9 @@
 body {
-  /* background-image: url('../images/background.jpg'); Update the path to your background image */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-  margin:-30px;
+  margin: -30px;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -14,12 +13,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('../images/background.jpg'); /* Update the path to your background image */
- 
-  /* background-color: rgba(255, 255, 255, 0.8); Add a semi-transparent background */
+  background-image: url('../images/login.jpg'); /* Update the path to your background image */
   padding: 20px;
   border-radius: 10px;
-
 }
 
 .register-title {
@@ -30,13 +26,18 @@ body {
 }
 
 .register-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
   background-color: #fff;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.register-form .form-group {
+  display: flex;
+  flex-direction: column;
 }
 
 .register-form label {
@@ -45,8 +46,8 @@ body {
   margin-bottom: 5px;
 }
 
-.register-form input {
-  width: 250px;
+.register-form input, .register-form select {
+  width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
@@ -64,10 +65,15 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  grid-column: span 2;
 }
 
 .register-form .btn:hover {
   background-color: #0056b3;
+}
+
+.register-form .full-width {
+  grid-column: span 2;
 }
 
 .register-message {
@@ -75,4 +81,5 @@ body {
   color: green;
   margin-top: 10px;
   font-weight: bold;
+  grid-column: span 2;
 }

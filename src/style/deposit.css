@@ -13,16 +13,17 @@
 
 .deposit-title {
   font-size: 2rem;
-  color: rgb(176, 227, 20);
+  color: rgb(227, 65, 20);
   font-weight: bold;
-  font-weight: bold;
+ 
   margin-bottom: 20px;
 }
 
 .deposit-balance {
   font-size: 1.2rem;
-  color: #259cd3;
+  color: #f2f0f1;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .deposit-form {

@@ -12,16 +12,17 @@
 
 .cashback-title {
   font-size: 2rem;
-  color: rgb(176, 227, 20);
+  color: rgb(227, 89, 20);
   font-weight: bold;
-  font-weight: bold;
+ 
   margin-bottom: 20px;
 }
 
 .cashback-balance {
   font-size: 1.2rem;
-  color: #259cd3;
+  color: #09a3f0;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .cashback-form {

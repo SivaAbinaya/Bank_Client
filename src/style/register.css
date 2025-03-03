@@ -32,7 +32,7 @@ body {
   background-color: #fff;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(14, 197, 169, 0.1);
 }
 
 .register-form .form-group {
@@ -42,7 +42,7 @@ body {
 
 .register-form label {
   font-size: 1rem;
-  color: #333;
+  color: #fb1ad9;
   margin-bottom: 5px;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .register-form .btn {
-  background-color: #007bff;
+  background-color: #28a745;
   color: white;
   font-weight: bold;
   border: none;

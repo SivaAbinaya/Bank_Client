@@ -1,6 +1,5 @@
 import { useContext, useState } from 'react';
 import {Container, Nav, Navbar} from 'react-bootstrap';
-import '../App.css'; 
 
 export default function Nav_bar(){
     let user = useContext(navdataContext)

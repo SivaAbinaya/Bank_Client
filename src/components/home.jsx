@@ -18,18 +18,7 @@ function Home() {
      
            <div className="carousel-container">
         <Carousel data-bs-theme="dark">
-        <Carousel.Item>
-            <img
-             id="slide"
-              className="carousel-image"
-              src={CustomerSupport}
-              alt="24/7 Customer Support"
-            />
-            <Carousel.Caption>
-              <h5>24/7 Customer Support</h5>
-              <p>We are here to help you anytime, anywhere.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
+       
         <Carousel.Item>
             <img
              id="slide"
@@ -68,6 +57,19 @@ function Home() {
               <p>Access your money from anywhere with our wide network of ATMs.</p>
             </Carousel.Caption>
           </Carousel.Item>
+          <Carousel.Item>
+            <img
+             id="slide"
+              className="carousel-image"
+              src={CustomerSupport}
+              alt="24/7 Customer Support"
+            />
+            <Carousel.Caption>
+              <h5>24/7 Customer Support</h5>
+              <p>We are here to help you anytime, anywhere.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          
           <Carousel.Item>
             <img
              id="slide"

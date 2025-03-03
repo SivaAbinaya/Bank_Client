@@ -1,0 +1,42 @@
+/* Navbar Styling */
+#nav {
+    background-color: #eee4e4;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(72, 201, 7, 0.1);
+    font-size: 1rem;
+    color: #10bcde;
+  }
+  
+  #nav h1 {
+    color: rgb(19, 34, 207);
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #nav .nav-link {
+    color: #333;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease, background-color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  #nav .nav-link:hover {
+    color: green;
+    text-decoration: none;
+    background-color: rgba(255, 165, 0, 0.2);
+    border-bottom: 2px solid orange;
+    border-radius: 20%;
+  }

@@ -8,7 +8,7 @@
   /* background-color: #f4f4f4; */
   font-family: 'Times New Roman', Times, serif;
   background-image: url('../images/deposit.jpg'); /* Update the path to your background image */
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover; /* Ensure the image covers the entire area */
   color: transparent;
 }

@@ -13,9 +13,9 @@
   body, html, #root {
     margin-left:10px ;
   padding: 90;
-  margin-top: 0px;
+  margin-top: 40px;
   font-family:'Times New Roman', Times, serif;
-  background-color: white;
+  background-color: rgb(249, 250, 251);
   font-size: 1.1rem;
   /* font-weight: bold; */
   overflow-x: hidden;
@@ -126,39 +126,36 @@
   border-bottom: 2px solid orange;
   border-radius: 20%;
 }
+
 .nav-link {
-  text-decoration-color: rgb(31, 171, 222);
-  /* margin-right: 100px; */
-  margin-left: 15px;
-  font-size: 1rem;
+  color: white;
+  margin-right: 20px;
+  font-size: 1.2rem;
   /* text-transform: uppercase; */
   transition: color 0.3s ease, background-color 0.3s ease, border-bottom 0.3s ease;
 }
 
 .nav-link:hover {
   color: green;
-  text-decoration:none;
-  background-color: rgba(27, 184, 242, 0.2);
+  text-decoration: none;
+  background-color: rgba(43, 198, 233, 0.2);
   border-bottom: 2px solid orange;
   border-radius: 20%;
 }
-
-
 /* Add space below the navbar */
 .br-navbar-spacing {
   margin-top: 70px; /* Adjust based on navbar height */
 }
 
 .welcome-text {
- 
-  margin-top: 100px;
-  margin-left:600px;
+ margin-left: 600px;
+  margin-top: 20px;
   color: rgb(244, 9, 193);
   font-size: 2rem;
   background-color: white;
-  padding: 5px;
-  font-weight: bold;
+  padding: 2px;
   border-radius: 10px;
+  font-weight: bold;
 }
 /* Carousel Styling */
 /* Carousel Container Styling */
